@@ -21,7 +21,7 @@ export const Container = styled.div<ContainerProps>`
 
     label {
         color: #ccc;
-        text-decoration: ${(props) => (props.done ? 'line-through': 'initial')}; 
-        }
+        text-decoration: ${(props) => (props.done ? 'line-through' : 'initial')}; 
+    }
 
 `

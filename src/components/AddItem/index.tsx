@@ -11,8 +11,6 @@ export const AddItems = () => {
                 type='text'
                 placeholder='Digite o nome de uma tarefa'
             />
-
         </Container>
-
     )
 }

@@ -13,7 +13,7 @@ export const Container = styled.div`
         border: none;
         padding: 10px;
         background-color: transparent;
-        /* outline: 0; */
+        outline: 0;
         color: #fff;
         width: 100%;
         font-size: 18px;

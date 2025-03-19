@@ -13,7 +13,7 @@ export const App = () => {
   ]);
 
   const handleAddTask = (taskName: string) => {
-    let newList = [...list]
+    const newList = [...list]
     newList.push({
       id: list.length + 1,
       name: taskName,
